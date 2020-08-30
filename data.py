@@ -75,4 +75,5 @@ def main():
         w.writeheader()
         for x in finalGathered:
             w.writerow(x)
-main()
+if __name__ == "__main__":
+    main()
